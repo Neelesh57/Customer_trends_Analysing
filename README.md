@@ -22,9 +22,8 @@ This project analyzes historical transaction data to uncover customer purchase t
    - Addressed missing values, outliers, and inconsistent formats.  
    - Transformed data into structured format suitable for database ingestion.  
 3. **Database Integration**  
-   - Created a relational database in a selected SQL engine (MySQL / PostgreSQL / MS SQL).  
-   - Loaded cleaned data from Python into the SQL database using SQLAlchemy / connectors.  
-   - Developed SQL scripts (`customer_behavior_sql_queries.sql`) to answer business questions via queries.  
+   - Created a relational database in a selected SQL engine (MySQL)  
+   - Loaded cleaned data from Python into the SQL database using SQLAlchemy / connectors.   
 4. **Visualization & Dashboarding**  
    - Connected Power BI to the SQL database and imported curated datasets.  
    - Built interactive dashboards presenting customer segmentation, revenue trends, payment mode analysis, and other KPIs.  
